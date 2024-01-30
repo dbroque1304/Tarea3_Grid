@@ -1,0 +1,12 @@
+@import url(./_variables.scss);
+@mixin desktop(){
+    @media screen and (min-width: $mw_desktop){
+        @content
+    }
+};
+
+@mixin tablet(){
+    @media screen and (min-width: $mw_tablet) {
+        @content
+    }
+};
